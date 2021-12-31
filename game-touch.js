@@ -32,8 +32,8 @@ function animatePress(color) {
 }
 
 function animateSuccesLevel() {
-    $(".container").addClass("success")
-    setTimeout(() => $(".container").removeClass("success"), 900)
+    setTimeout(()=>$(".container").addClass("success"), 300)
+    setTimeout(() => $(".container").removeClass("success"), 600)
 }
 
 function startGame(event) {
